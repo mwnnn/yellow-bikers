@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -15,11 +16,19 @@ import android.view.View;
  */
 public class MainMenuActivity extends Activity {
 
+	TextView eNpmMainMenuTextView;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.activity_main_menu);
+//		Session session = new Session();
+//		
+//		String npm = session.getSessionItem("npm");
+		eNpmMainMenuTextView = (TextView) findViewById(R.id.npmTextView);
+		
+		//eNpmMainMenuTextView.setText(npm);
 
 	}
 
@@ -45,7 +54,7 @@ public class MainMenuActivity extends Activity {
 	
 	public void OnTrackingClick(View v) {
 		if (v.getId() == R.id.trackingViewButton) {
-			Intent i = new Intent(this, StatisticsActivity.class);
+			Intent i = new Intent(this, TrackingActivity.class);
 			startActivity(i);
 		}
 	}

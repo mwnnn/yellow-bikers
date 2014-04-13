@@ -16,5 +16,9 @@
     <string name="comingSoonText">Coming Soon! >:D</string>
     <string name="title_activity_tracking">TrackingActivity</string>
     <string name="trackingViewText">Tracking</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="NpmText">NPM</string>
+    <string name="fakultasText">Fakultas</string>
+    <string name="signUpText">Sign Up</string>
 
 </resources>
