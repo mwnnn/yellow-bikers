@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yellow Bikers Peminjam</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="signInText">Sign In</string>
+    <string name="usernameText">Username</string>
+    <string name="passwordText">password</string>
+    <string name="loginDisclaimerText">Identitas anda akan tetap terjaga.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="QrCodeViewText">Lihat QRCode</string>
+    <string name="title_activity_statistics">StatisticsActivity</string>
+    <string name="statisticsViewText">Statistik</string>
+    <string name="comingSoonText">Coming Soon! >:D</string>
+    <string name="title_activity_tracking">TrackingActivity</string>
+    <string name="trackingViewText">Tracking</string>
+
+</resources>
